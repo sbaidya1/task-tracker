@@ -8,5 +8,7 @@ A simple Flask app for tracking tasks with user login support.
 - User-specific task storage (SQLite)
 
 ## To run locally:
+```bash
 pip install -r requirements.txt
 python app.py
+```
