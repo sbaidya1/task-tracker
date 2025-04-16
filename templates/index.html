@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Tracker</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Welcome, {{ current_user.username }}</h1>
+  <form id="task-form">
+    <input type="text" id="task-title" placeholder="Enter task title" required>
+    <button type="submit">Add Task</button>
+  </form>
+  <ul id="task-list"></ul>
+  <a href="{{ url_for('logout') }}">Logout</a>
+
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# SQLite database and instance folder
+*.db
+instance/
+
+# VSCode settings 
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
